@@ -1,0 +1,181 @@
+﻿<Window x:Class="RealEstateWPF.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealEstateWPF.Views"
+        mc:Ignorable="d"
+        Title="ShellView" Height="450" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+    <Border CornerRadius="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid Background="Crimson"
+                  Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+           
+                <TextBlock Text="REI MAESTRO"
+                           Foreground="White"
+                           Grid.Column="0"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           />
+
+             
+
+                <RadioButton Content="Home"
+                           Foreground="White"
+                           Grid.Column="1"
+                           x:Name="HomeView"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Fonts/#LondrinaShadow"
+                           FontSize="15"
+                           Cursor="Hand"
+                           Style="{StaticResource NavButtonTheme}"/>
+            
+
+
+
+
+
+                <RadioButton Content="Rental Rates"
+                           Foreground="White"
+                           Grid.Column="2"
+                           x:Name="RadioButton_Click"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Fonts/SixCaps-Regular.ttf #SixCaps-Regular"
+                           FontSize="15"
+                           Cursor="Hand"
+                           Style="{StaticResource NavButtonTheme}"/>
+
+                <RadioButton Content="Short Term Rentals"
+                           Foreground="White"
+                           Grid.Column="3"
+                           x:Name="ShortTerm_Click"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Fonts/SixCaps-Regular.ttf #SixCaps-Regular"
+                           FontSize="15"
+                           Cursor="Hand"
+                           Style="{StaticResource NavButtonTheme}"/>
+                
+
+            </Grid>
+
+            <StackPanel Grid.Row="1"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image Width="100" Height="100" Source="c:\Users\nck89\source\repos\REIMaestroApp\REIMaestroWPF\Images\logo.png" Margin="10"/>
+                    <TextBlock Text="REI MAESTRO"
+                           Foreground="Crimson"
+                           Grid.Column="2"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Fonts/#LondrinaShadow-Regular.ttf"
+                           FontSize="20"
+                           FontWeight="Bold"/>
+                </StackPanel>
+
+                <TextBlock Text="Optimal..."
+                           Foreground="Crimson"
+                           FontSize="25"
+                           FontWeight="Medium"
+                           Margin="10,10,0,0"/>
+
+                <TextBlock Text="Real Estate.."
+                           Foreground="Crimson"
+                           FontSize="25"
+                           FontWeight="Medium"
+                           Margin="10,0,0,0"/>
+
+                <TextBlock Text="Research."
+                           Foreground="Crimson"
+                           FontSize="25"
+                           FontWeight="Medium"
+                           Margin="10,0,0,0"/>
+
+                <TextBlock Text="Find all the essential data to take your Real Estate portfolio to the next level.  Search any place in the country and optimize your experience."
+                           Foreground="Crimson"
+                           TextWrapping="Wrap"
+                           Margin="10"/>
+            </StackPanel>
+
+            <Grid Grid.Column="1"
+                  Grid.RowSpan="2"
+                  Margin="160,-365,-610,85"
+                  Panel.ZIndex="-1">
+                <Grid.RenderTransform>
+                    <RotateTransform Angle="50"/>
+                </Grid.RenderTransform>
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="-350,250,-255,-250">
+                    <StackPanel>
+                        <Border Width="700"
+                                Height="35"
+                                Background="Crimson"
+                                Margin="150,0,0,0"
+                                CornerRadius="20"/>
+                        <Border Width="700"
+                                Height="35"
+                                Background="Crimson"
+                                Margin="0,15,0,0"
+                                CornerRadius="20"/>
+                        <Border Width="700"
+                                Height="35"
+                                Background="Crimson"
+                                Margin="75,15,0,0"
+                                CornerRadius="20"/>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <Border Width="700"
+                        Height="35"
+                        Background="Crimson"
+                        Margin="150,0,0,0"
+                        CornerRadius="20"/>
+                        <Border Width="700"
+                        Height="35"
+                        Background="Crimson"
+                        Margin="0,15,0,0"
+                        CornerRadius="20"/>
+                        <Border Width="700"
+                        Height="35"
+                        Background="Crimson"
+                        Margin="75,15,0,0"
+                        CornerRadius="20"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="0"
+                            Margin="10"
+                            x:Name="ActiveItem"/>
+
+        </Grid>
+    </Border>
+</Window>

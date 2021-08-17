@@ -1,0 +1,9 @@
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\bin\Debug\netstandard2.0\RealEstateLibrary.deps.json
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\bin\Debug\netstandard2.0\RealEstateLibrary.dll
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.csprojAssemblyReference.cache
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.AssemblyInfoInputs.cache
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.AssemblyInfo.cs
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\bin\Debug\netstandard2.0\RealEstateLibrary.pdb
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.dll
+C:\Users\nck89\source\repos\RealEstateApp\RealEstateLibrary\obj\Debug\netstandard2.0\RealEstateLibrary.pdb
